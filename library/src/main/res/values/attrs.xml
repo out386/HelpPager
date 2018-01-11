@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hpg_toolbarTheme" format="reference" />
+    <attr name="hpg_toolbarPopupTheme" format="reference" />
+    <attr name="hpg_colour_primary" format="reference|color" />
+    <attr name="hpg_colour_secondary" format="reference|color" />
+    <attr name="hpg_text_colour_tabs" format="reference|color" />
+    <attr name="hpg_selected_text_colour_tabs" format="reference|color" />
+</resources>

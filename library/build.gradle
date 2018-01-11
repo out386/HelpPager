@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'gh.out386'
+version = '1.0.0'
+project.archivesBaseName = 'helppager'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+task generateSourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier 'sources'
+}
+
+task generateJavadocs(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath()
+            .join(File.pathSeparator))
+}
+
+task generateJavadocsJar(type: Jar) {
+    from generateJavadocs.destinationDir
+    classifier 'javadoc'
+}
+
+generateJavadocsJar.dependsOn generateJavadocs
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: mavenLocal().getUrl())
+        }
+    }
+}
+
+artifacts {
+    archives generateJavadocsJar
+    archives generateSourcesJar
+}
+
+dependencies {
+    api "com.android.support:appcompat-v7:$rootProject.ext.supportLibVersion"
+    api "com.android.support:recyclerview-v7:$rootProject.ext.supportLibVersion"
+    api "com.android.support:cardview-v7:$rootProject.ext.supportLibVersion"
+    api "com.mikepenz:fastadapter:3.0.5@aar"
+    api "com.mikepenz:fastadapter-commons:3.0.5@aar"
+    api "com.mikepenz:fastadapter-extensions-expandable:3.0.5@aar"
+    api 'com.android.support:design:27.0.2'
+    api 'com.android.support:support-v4:27.0.2'
+}
