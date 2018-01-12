@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_sections">
+        <item>@string/section1</item>
+        <item>@string/section2</item>
+        <item>@string/section3</item>
+    </string-array>
+
+    <string-array name="s1_names">
+        <item>@string/s1_name_1</item>
+        <item>@string/s1_name_2</item>
+        <item>@string/s1_name_3</item>
+        <item>@string/s1_name_4</item>
+    </string-array>
+
+    <string-array name="s2_names">
+        <item>@string/s2_name_1</item>
+        <item>@string/s2_name_2</item>
+        <item>@string/s2_name_3</item>
+        <item>@string/s2_name_4</item>
+    </string-array>
+
+    <string-array name="s3_names">
+        <item>@string/s3_name_1</item>
+        <item>@string/s3_name_2</item>
+        <item>@string/s3_name_3</item>
+        <item>@string/s3_name_4</item>
+        <item>@string/s3_name_5</item>
+    </string-array>
+
+    <string-array name="s1_texts">
+        <item>@string/s1_text1</item>
+        <item>@string/s1_text2</item>
+        <item>@string/s1_text3</item>
+        <item>@string/s1_text4</item>
+    </string-array>
+
+    <string-array name="s2_texts">
+        <item>@string/s2_text1</item>
+        <item>@string/s2_text2</item>
+        <item>@string/s2_text3</item>
+        <item>@string/s2_text4</item>
+    </string-array>
+
+    <string-array name="s3_texts">
+        <item>@string/s3_text1</item>
+        <item>@string/s3_text2</item>
+        <item>@string/s3_text3</item>
+        <item>@string/s3_text4</item>
+        <item>@string/s3_text5</item>
+    </string-array>
+
+</resources>

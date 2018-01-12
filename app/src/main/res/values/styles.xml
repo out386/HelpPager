@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Use any of the themes in HelpPager as parent for the theme used by the activity that extends HelpPagerActivity -->
+    <style name="AppTheme" parent="Theme.Hpg.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="hpg_card_corner_radius">@dimen/help_card_corner_radius</item>
+        <item name="hpg_card_elevation">@dimen/help_card_elevation</item>
+        <item name="hpg_card_margin">@dimen/help_card_margin</item>
+        <item name="hpg_card_padding">@dimen/help_card_padding</item>
+    </style>
+
+</resources>

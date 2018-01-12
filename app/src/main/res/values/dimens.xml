@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="help_card_corner_radius">0dp</dimen>
+    <dimen name="help_card_elevation">2dp</dimen>
+    <dimen name="help_card_margin">5dp</dimen>
+    <dimen name="help_card_padding">0dp</dimen>
+</resources>

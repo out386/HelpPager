@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">HelpPager Demo</string>
+    <string name="section1">About</string>
+    <string name="section2">Usage</string>
+    <string name="section3">Bugs</string>
+
+    <string name="s1_name_1">Titles go here</string>
+    <string name="s1_name_2">Another title</string>
+    <string name="s1_name_3">Yet another one</string>
+    <string name="s1_name_4">One more, for luck</string>
+
+    <string name="s2_name_1">Another title</string>
+    <string name="s2_name_2">Titles go here</string>
+    <string name="s2_name_3">One more, for luck</string>
+    <string name="s2_name_4">Yet another one</string>
+
+    <string name="s3_name_1">One more, for luck</string>
+    <string name="s3_name_2">Another title</string>
+    <string name="s3_name_3">Yet another one</string>
+    <string name="s3_name_4">Titles go here</string>
+    <string name="s3_name_5">Ran out of titles</string>
+
+    <string name="s1_text1">Make the titles descriptive, but short. Long titles will wrap around and look terrible. Make the descriptions as long as you like.</string>
+    <string name="s1_text2">Here\'s another one.
+        \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.</string>
+    <string name="s1_text3">Multiple paragraphs are fine.
+        \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.
+        \nSed quis velit odio. Etiam nibh lacus, hendrerit id ante at, blandit porta odio. Suspendisse potenti. Morbi vestibulum risus ipsum.</string>
+    <string name="s1_text4">This is getting ridiculous. Donec sollicitudin massa vel quam suscipit commodo. Nunc elit augue, efficitur sed mauris at, scelerisque feugiat lorem. Nunc in mauris.</string>
+
+    <string name="s2_text1">This is getting ridiculous. Donec sollicitudin massa vel quam suscipit commodo. Nunc elit augue, efficitur sed mauris at, scelerisque feugiat lorem. Nunc in mauris.</string>
+    <string name="s2_text2">Make the titles descriptive, but short. Long titles will wrap around and look terrible. Make the descriptions as long as you like.</string>
+    <string name="s2_text3">Multiple paragraphs are fine.
+        \nLorem ipsum2dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.
+        \nSed quis ve2it odio. Etiam nibh lacus, hendrerit id ante at, blandit porta odio. Suspendisse potenti. Morbi vestibulum risus ipsum.</string>
+    <string name="s2_text4">Here\'s another one.\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.</string>
+
+    <string name="s3_text1">Multiple paragraphs are fine.
+        \nLorem ipsum3dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.
+        \nSed quis ve3it odio. Etiam nibh lacus, hendrerit id ante at, blandit porta odio. Suspendisse potenti. Morbi vestibulum risus ipsum.</string>
+    <string name="s3_text2">This is getting ridiculous. Donec sollicitudin massa vel quam suscipit commodo. Nunc elit augue, efficitur sed mauris at, scelerisque feugiat lorem. Nunc in mauris.</string>
+    <string name="s3_text3">Here\'s another one.
+        \nLorem ipsum3dolor sit amet, consectetur adipiscing elit. Nam ornare leo risus, ac elementum turpis consectetur non. Integer varius consectetur lectus, eu dapibus tortor sodales sed. Sed tortor dui, efficitur.</string>
+    <string name="s3_text4">Make the titles descriptive, but short. Long titles will wrap around and look terrible. Make the descriptions as long as you like.</string>
+    <string name="s3_text5">Ran out of Lorem Ipsum, too. Any more, and I\'ll switch to Lorem Possum.</string>
+
+    <string name="hpg_help_title">Demo</string>
+</resources>
