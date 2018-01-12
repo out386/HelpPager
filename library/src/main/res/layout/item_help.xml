@@ -5,24 +5,25 @@
     android:id="@+id/help_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp"
+    android:layout_margin="?attr/hpg_card_margin"
     android:orientation="vertical"
-    app:elevation="1dp">
+    app:cardCornerRadius="?attr/hpg_card_corner_radius"
+    app:cardElevation="?attr/hpg_card_elevation">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="?attr/hpg_card_padding">
 
         <TextView
             android:id="@+id/hpg_item_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="10dp"
             android:paddingBottom="5dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
             android:textColor="?attr/hpg_colour_primary"
             android:textSize="16sp"
             tools:text="Some feature name" />
@@ -30,18 +31,18 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?attr/hpg_colour_secondary"
+            android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp" />
+            android:background="?attr/hpg_colour_secondary" />
 
         <TextView
             android:id="@+id/hpg_item_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="15dp"
             android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
             android:textColor="?attr/hpg_colour_secondary"
             android:textSize="14sp"
             tools:text="Long description of how it works (or excuses about why it doesn\'t)." />

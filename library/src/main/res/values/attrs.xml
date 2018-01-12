@@ -6,4 +6,8 @@
     <attr name="hpg_colour_secondary" format="reference|color" />
     <attr name="hpg_text_colour_tabs" format="reference|color" />
     <attr name="hpg_selected_text_colour_tabs" format="reference|color" />
+    <attr name="hpg_card_corner_radius" format="reference|dimension" />
+    <attr name="hpg_card_elevation" format="reference|dimension" />
+    <attr name="hpg_card_margin" format="reference|dimension" />
+    <attr name="hpg_card_padding" format="reference|dimension" />
 </resources>
